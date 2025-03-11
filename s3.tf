@@ -3,9 +3,9 @@ resource "aws_s3_bucket" "five_example" {
   bucket = "swiggy-bucket-tdgdfderraformraja56377386"
 
   # Enable versioning
-  versioning {
-    enabled = true
-    status = enabled
+  versioning_configuration {
+    
+    status = "enabled"
   }
 }
 

@@ -5,6 +5,7 @@ resource "aws_s3_bucket" "five_example" {
   # Enable versioning
   versioning {
     enabled = true
+    status = enabled
   }
 }
 
